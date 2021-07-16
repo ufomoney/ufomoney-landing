@@ -1,11 +1,10 @@
 import styled from 'styled-components'
-import uImage from '../images/big_unicorn_fade.png'
 import noise from '../images/noise.png'
 import { Link } from 'gatsby'
 
 export const CardBGImage = styled.span`
   mix-blend-mode: ${({ isDark }) => (isDark ? 'overlay' : 'lighten')};
-  background: url(${uImage});
+  background: linear-gradient(90deg,#007ed8,rgba(28,167,219,.92));
   width: 100%;
   height: 100%;
   opacity: 0.5;
